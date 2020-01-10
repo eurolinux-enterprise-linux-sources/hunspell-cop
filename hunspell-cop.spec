@@ -1,7 +1,7 @@
 Name: hunspell-cop
 Summary: Coptic hunspell dictionaries
 Version: 0.3
-Release: 4%{?dist}
+Release: 5%{?dist}
 Group: Applications/Text
 Source: http://extensions.services.openoffice.org/e-files/793/2/dict-cop_EG_v03.oxt
 URL: http://www.moheb.de/coptic_oo.html
@@ -39,6 +39,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.3-5
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.3-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
